@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Домашнее задание 2 (css). Создать 2 и 3 клонки</title>
+</head>
+<body>
+	<header>
+		<div class="user">
+			<img src="images/user-avatar.jpg" alt="user avatar">
+			<h4>Евгений Резников</h4>
+		</div>
+		<div class="sign_in">
+			<a href="#">Войти</a>
+		</div>	
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="git.html">Git</a></li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">PostgreSQL</a></li>
+				<li><a href="#">Django</a></li>
+				<li><a href="#">Cериалы</a></li>
+			</ul>
+		</nav>
+	</header>
+														<!--С помощью позиционирования сверстать баннер, который невозможно убрать-->
+	<div class="banner">
+		<img src="images/banner.jpg" alt="">
+	</div>
+	<h1 class="reg-h1">Сериалы</h1>
+														<!--С помощью div сделать блок из двух колонок и наполнить контентом-->
+	<section class="plot_summary">
+		<article class="left">
+			<img src="images/legion.jpg" alt="Легион (Legion)">
+		</article>
+		<article class="serial plot_text">
+			<h3>Legion</h3>
+			<p class="summary_text">«Легио́н» (англ. Legion) — американский телесериал, созданный Ноем Хоули для телеканала FX на основе биографии одноимённого персонажа Marvel Comics — Дэвида Хэллера («Легион»). Шоу совместно спродюсировано Marvel Television[en] и FX Productions. Дэвиду Хэллеру поставлен диагноз — множественное расстройство личности. Постепенно выясняется, что картины и голоса, которые он видит и слышит, вполне реальны, а не бред его воспаленного разума.</p>
+		</article>
+	</section>
+	<section class="plot_summary">
+		<article class="left">
+			<img src="images/taboo.jpg" alt="Taboo">
+		</article>
+		<article class="serial plot_text">
+			<h3>Taboo</h3>
+			<p class="summary_text">«Табу́» (англ. Taboo) — британский драматический телесериал, премьера которого состоялась в Великобритании на канале BBC One, а в США — на канале FX. Восьмисерийный сериал, созданный Томом Харди, Чипсом Харди и Стивеном Найтом, основанный на рассказе Тома Харди, рассказывает об искателе приключений, унаследовавшем землю и пытающимся получить монополию на торговлю с Китаем. Сериал получил положительные отзывы критиков, которые в особенности отметили актёрскую игру Тома Харди.</p>
+		</article>
+	</section>
+	<section class="plot_summary">
+		<article class="left">
+			<img src="images/westworld_onair_keyart1.jpg" alt="Мир дикого запада (West world)">
+		</article>
+		<article class="serial plot_text">
+			<h3>Legion</h3>
+			<p class="summary_text">«Мир Ди́кого за́пада» (англ. Westworld) — американский фантастический сериал телеканала HBO, премьера которого состоялась 2 октября 2016 года. Это адаптация одноименного фильма «Западный мир», написанного и поставленного Майклом Крайтоном в 1973 году. Исполнительными продюсерами сериала стали Джонатан Нолан, Лиза Джой, Дж. Дж. Абрамс, Джерри Вайнтрауб и Брайан Бёрк. Нолан также выступил в качестве режиссёра пилотной серии. 14 ноября 2016 года HBO продлил сериал на второй сезон.</p>
+		</article>
+	</section>
+	</section>
+															<!--С помощью div сделать блок из трех колонок и наполнить контентом-->
+
+	<div class="wrapper">
+		<h2>Постеры</h2>
+		<div class="block3">
+			<img src="images/legion.jpg" alt="">
+			<h3>Legion</h3>
+		</div>
+		<div class="block3">
+			<img src="images/taboo.jpg" alt="">
+			<h3>Taboo</h3>
+		</div>
+		<div class="block3">
+			<img src="images/westworld_onair_keyart1.jpg" alt="">
+			<h3>West world</h3>
+		</div>
+	</div>
+	
+															<!--Центрирование блока-->
+	<div class="absolute">
+		<div class="absolut-centr">
+			<input type="email" name="email" class="input" placeholder="user@gmail.com" required>
+			<button type="submit">Отправить</button>
+		</div>
+	</div>
+
+	<footer>
+		<p>Домашнее задание Резникова Евгения от 21.02.17</p>
+	</footer>
+</body>
+</html>

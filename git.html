@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	<title>Домашнее задание 2 и 3</title>
+</head>
+<body>
+	<header>
+		<div class="user">
+			<img src="images/user-avatar.jpg" alt="user avatar">
+			<h4>Евгений Резников</h4>
+		</div>
+		<div class="sign_in">
+			<a href="#">Войти</a>
+		</div>	
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="git.html">Git</a></li>
+				<li><a href="#">Python</a></li>
+				<li><a href="#">PostgreSQL</a></li>
+				<li><a href="#">Django</a></li>
+				<li><a href="serial.html">Cериалы</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1 class="reg-h1">Шпаргалка по git</h1>
+	<section class="table">
+		<p class="git_book"><a href="https://git-scm.com/book/ru/v1">https://git-scm.com/book/ru/v1</a> - git book</p>
+		<table>
+			<tr>
+				<th>Команда</th>
+				<th>Что делает</th>
+			</tr>
+			<tr>
+				<td><span>git config --global user.name "name"</span></td>
+				<td>Указываем имя</td>
+			</tr>
+			<tr>
+				<td><span>git config --global user.email "email"</span></td>
+				<td>Указываем email</td>
+			</tr>
+			<tr>
+				<td><span>git init</span></td>
+				<td> - инициализируем проэкт в папке</td>
+			</tr>
+			<tr>
+				<td><span>git status</span></td>
+				<td> - проверяем статутс проэкта</td>
+			</tr>
+			<tr>
+				<td><span>git diff</span></td>
+				<td>- предоставляет расширенную информацию об изменениях в еще не проиндексированных файлах</td>
+			</tr>
+			<tr>
+				<td><span>git diff --cached</span></td>
+				<td> - предоставляет расширенную информацию об изменениях в проиндексированных файлах</td>
+			</tr>
+			<tr>
+				<td><span>git add .</span></td>
+				<td> - индексируем содержимое нашего проэкта</td>
+			</tr>
+			<tr>
+				<td><span>git add index.html</span></td>
+				<td> - индексируем конкретный файл нашего проэкта</td>
+			</tr>
+			<tr>
+				<td><span>git commit -m "comments"</span></td>
+				<td> -  добавляем под версионный контроль существующие файлы с добавлением коментария</td>
+			</tr>
+			<tr>
+				<td><span>git log</span></td>
+				<td> - просмотр истории коммитов</td>
+			</tr>
+			<tr>
+				<td><span>git log -2</span></td>
+				<td> - просмотр последних 2 коммитов (число можна подставлять любое)</td>
+			</tr>
+			<tr>
+				<td><span>gitk</span></td>
+				<td> - использование графического интерфейса для визуализации истории</td>
+			</tr>
+			<tr>
+				<td><span>git clone url</span></td>
+				<td> - получить копию существующего репозитория Git</td>
+			</tr>
+			<tr>
+				<td><span>git remote add origin url</span></td>
+				<td> - указываем путь к репозиторию</td>
+			</tr>
+			<tr>
+				<td><span>git push -u origin master</span></td>
+				<td> - отправляем файлы на github</td>
+			</tr>
+			<tr>
+				<td><span>git checkout -b "new_branch"</span></td>
+				<td> - создаем новую ветку с переходом на нее</td>
+			</tr>
+			<tr>
+				<td><span>git branch</span></td>
+				<td> - показывает какие ветки у нас есть</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</section>
+	<footer>
+		<p>Домашнее задание Резникова Евгения от 21.02.17</p>
+	</footer>
+</body>
+</html>
